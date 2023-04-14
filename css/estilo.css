@@ -9,17 +9,24 @@ body{
 }
 .logo{
     width:100px;
-    position:fixed;
-
+   margin-top: -30px;
+   position:cover;
 }
 .menuul{
-    display:flex;
+   display:flex;
     position:absolute;
     justify-content: center;
-    align-items:center;
     width: 100%;
+    padding: 40px;
+    margin-left: 40px;
 }
 .menuul li{
     list-style: none;
-    margin-right: 80px;
+    margin-right: 40px;
 }
+menu a{
+    display:absolute;
+    text-decoration: none;
+
+}
+
